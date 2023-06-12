@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-DAY3 EXPERIENCE</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="bg-info">
+        <h1 id="title" class="text-center p-4"></h1>
+    </div>
+    <div class="container-fluid">
+        <h2 id="title1" class="text-center"><b></b></h2>
+        <p id="type"></p>
+        <p id="types"></p>
+        <h3 id="Arithmetic"></h3>
+        <p id="Detail1"></p>
+        <p id="Add"></p>
+        <p id="output1"></p>
+        <p id="sub"></p>
+        <p id="out2"></p>
+        <p id="mul"></p>
+        <p id="out3"></p>
+        <p id="divide"></p>
+        <p id="out4"></p>
+        <p id="mod"></p>
+        <p id="out5"></p>
+        <p id="exp"></p>
+        <p id="out6"></p>
+        <h3 id="compare"></h3>
+        <p id="detail2"></p>
+        <p id="op1"></p>
+        <p id="out7"></p>
+        <p id="op2"></p>
+        <p id="out8"></p>
+        <p id="op3"></p>
+        <p id="out9"></p>
+        <p id="op4"></p>
+        <p id="outa"></p>
+        <p id="op5"></p>
+        <p id="outb"></p>
+        <p id="op6"></p>
+        <p id="outc"></p>
+        <p id="op7"></p>
+        <p id="outd"></p>
+        <p id="op8"></p>
+        <p id="oute"></p>
+    </div>
+
+    
+    
+    
+    
+    <script>
+        document.getElementById('title').innerHTML='MY JAVASCRIPT DAY3 EXPERIENCE'
+        document.getElementById('title1').innerHTML='OPERATORS'
+        document.getElementById('type').innerHTML='We discussed two types of operators in todays class:'
+        document.getElementById('types').innerHTML='1. Arithmetic Operators<br>2. Comparison Operators'
+        document.getElementById('Arithmetic').innerHTML='<br>ARITHMETIC OPERATORS:'
+        document.getElementById('Detail1').innerHTML='They are operators that are used to perform arithmetic operations and mathematical calculations. The arithmetic operators we have are:<br><br>'
+        
+        document.getElementById('Add').innerHTML='<b>Addition Operator:</b> It is used to perform addition operations. It is denoted by "+".'
+        let a=5;
+        let b=6;
+        let c=a+b;
+        document.getElementById('output1').innerHTML="a+b=" +c;
+
+        document.getElementById('sub').innerHTML='<b>Subtraction Operator:</b> It is used to perform subtraction operations. It is denoted by "-".'
+        let d=7;
+        let e=4;
+        let f=d-e;
+        document.getElementById('out2').innerHTML="d-e=" +f;
+
+        document.getElementById('mul').innerHTML='<b>Multiplication Operator:</b>It is used to perform multiplication operations. It is denoted by "*" in Javascript.'
+        let g=5;
+        let h=8;
+        let i=g*h;
+        document.getElementById('out3').innerHTML="g*h=" +i;
+
+        document.getElementById('divide').innerHTML='<b>Division Operator:</b>It is used to perform division operations. It is denoted by "/".'
+        let j=100;
+        let k=10;
+        let m=j/k;
+        document.getElementById('out4').innerHTML="j/k=" +m;
+
+        document.getElementById('mod').innerHTML='<b>Modulus Operator:</b>It is used to perform modulus operations. It is denoted by "%".It is used to obtain the remainder value in a division operation of 2 assigned variables/numbers.'
+        let n=89;
+        let O=11;
+        let p=n%O;
+        document.getElementById('out5').innerHTML="n%O=" +p;
+
+        document.getElementById('exp').innerHTML='<b>Exponential Operator:</b>It is used to perform exponential operations. It is denoted by "**". It is used to find the power/exponent of a number by another number.'
+        let q=90;
+        let r=0;
+        let s=q**r;
+        document.getElementById('out6').innerHTML="q**r=" +s;
+
+
+        document.getElementById('compare').innerHTML='<br>COMPARISON OPERATORS'
+        document.getElementById('detail2').innerHTML='They are operators that are used to compare 2 or more variables/values and gives output as Boolean value(True or False). Examples are:'
+        document.getElementById('op1').innerHTML='(i) Greater-than(>): It is used to check if a number is greater than the other.'
+        let A=2;
+        let B=4;
+        
+        document.getElementById('out7').innerHTML= A>B;
+        document.getElementById('op2').innerHTML='(ii) Less-than(<):It is used to check if a number is less than the other.'
+        let C=6;
+        let D=7;
+        document.getElementById('out8').innerHTML= C<D;
+        document.getElementById('op3').innerHTML='(iii) Equal-to(==): It is used to check only the value in the comparison of 2 numbers.'
+        3=="3";
+        document.getElementById('out9').innerHTML= 3=="3";
+        document.getElementById('op4').innerHTML='(iv) Equal value and type(===): It is used to check both the value and type in the comparison of 2 numbers.'
+        5==="5";
+        document.getElementById('outa').innerHTML= 5==="5";
+        document.getElementById('op5').innerHTML='(v) Greater-than or equal-to(>=): It is used to check if a number is greater than or equal to the other.'
+        50>=49.9;
+        document.getElementById('outb').innerHTML= 50>=49.9;
+
+        document.getElementById('op6').innerHTML='(vi) Less-than or equal-to(<=): It is used to check if a number is less than or equal to the other.'
+        77<=77.00001;
+        document.getElementById('outc').innerHTML= 77<=77.00001;
+
+        document.getElementById('op7').innerHTML= '(vii) Not-equal-to(!=): It is used to check if a number is not equal to the other in terms of value.'
+        11!="11";
+        document.getElementById('outd').innerHTML= 11!="11";
+
+        document.getElementById('op8').innerHTML='(viii) Not-equal value or type(!==): It is used to check if a number is not equal to the other in terms of value and type.'
+        92!==92;
+        document.getElementById('oute').innerHTML= 92!==92;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <script src="bootstrap.bundle.min.js"></script>   
+</body>
+</html>
